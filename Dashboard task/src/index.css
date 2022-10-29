@@ -57,3 +57,13 @@
   height: 1.5rem;
   width: 1.5rem;
 }
+
+.footerWrap{
+  display: flex;
+  gap: 18.6rem;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  margin-top: 4rem;
+  font-weight: 400;
+}
