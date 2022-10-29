@@ -3,4 +3,16 @@
   padding: 0;
   box-sizing: border-box;
 }
+.profile-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 0 3.5rem;
+}
 
+#profile__img{
+  height: 5.5rem;
+  width: 5.5rem;
+  border-radius: 17rem;
+}
