@@ -8,7 +8,7 @@ export default function Profile(){
             <img src={profileImg} alt="profile image" id="profile__img"/>
             <div className="slack-section">
                 <p>William Adepoju</p>
-                {/* <p id="slack">slack username: William</p> */}
+                {/* <p id="slack">slack username: @William69</p> */}
             </div>
         </div>
     )
