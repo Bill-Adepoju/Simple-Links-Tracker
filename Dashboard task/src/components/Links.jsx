@@ -7,6 +7,7 @@ export default function Links(){
             <a href="https://books.zuri.team/python-for-beginners?ref_id=William" id="book__python" className="link-button">Python Books</a>
             <a href="https://background.zuri.team/" id="pitch" className="link-button">Background Check for Coders</a>  
             <a href="https://books.zuri.team/design-rules" id="book__design" className="link-button">Design Books</a>
+            <a href="/contact" id="contact" className="link-button">Contact Me</a>
         </div>
     )
 }
