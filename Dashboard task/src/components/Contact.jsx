@@ -8,9 +8,8 @@ export default function Contact() {
             lastName: "", 
             email: "", 
             comments: "", 
-            isFriendly: true,
-            employment: "",
-            favColor: ""
+            agreement: false,
+            
         }
     )
     
@@ -26,16 +25,17 @@ export default function Contact() {
     
     function handleSubmit(event) {
         event.preventDefault()
-        // submitToApi(formData)
-        console.log(formData)
+        // console.log(formData)
     }
     
     return (
 
         <div className="contact-Page">
             <div id="contact-text">
-                <h1>Contact Me</h1>
-                <p className="contact-Paragraph">Hi there, contact me to ask me about anything you have in mind.</p>
+                <div>
+                    <h1 className="contact-header">Contact Me</h1>
+                    <p className="contact-Paragraph">Hi there, contact me to ask me about anything you have in mind.</p>
+                </div>
             </div>
             <form onSubmit={handleSubmit} id="contact-field">
                <div className="names">
@@ -87,11 +87,11 @@ export default function Contact() {
                 <input 
                     type="checkbox" 
                     id="agreement" 
-                    checked={formData.isFriendly}
+                    checked={formData.agreement}
                     onChange={handleChange}
-                    name="isFriendly"
+                    name="agreement"
                 />
-                <label htmlFor="isFriendly">You agree to providing your data to William who may contact you.</label>
+                <label className="agree-label" htmlFor="agreement">You agree to providing your data to William who may contact you.</label>
                 <br />
                 
                 <br />
